@@ -26,10 +26,10 @@ export default {
           ]
         },
         {
-          text: '应用',
+          text: '演示文档',
           collapsed: false,
           items: [
-            { text: '应用', link: '/guide/应用' },
+            { text: '演示文档', link: '/guide/演示文档' },
           ]
         },
         {
@@ -40,10 +40,10 @@ export default {
           ]
         },
         {
-          text: 'TODO',
+          text: '未来计划',
           collapsed: false,
           items: [
-            { text: '未来计划', link: '/guide/TODO' },
+            { text: '未来计划', link: '/guide/未来计划' },
           ]
         }
       ],
