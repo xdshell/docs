@@ -3,7 +3,7 @@ export default {
   themeConfig: {
     siteTitle: '🎉 This is Xdsh ~',
     nav: [
-      { text: 'Guide', link: '/guide/什么是-Xdsh-？' },
+      { text: 'Guide', link: '/guide/简介' },
       { text: 'Demo', link: 'https://xdshell.github.io/xdsh/'},
       { text: 'Changelog', link: 'https://github.com/xdshell/xdsh/blob/main/CHANGELOG.md' }
     ],
@@ -22,18 +22,22 @@ export default {
           text: '简介',
           collapsed: false,
           items: [
-            { text: '什么是 Xdsh ？', link: '/guide/什么是-Xdsh-？' },
+            { text: 'Xdsh 简介', link: '/guide/简介' },
+            { text: '快速开始', link: '/guide/快速开始' },
+            { text: 'vue-xdsh', link: '/guide/vue-xdsh' }
           ]
         },
         {
-          text: '演示文档',
+          text: '自定义',
           collapsed: false,
           items: [
-            { text: '演示文档', link: '/guide/演示文档' },
+            { text: '自定义命令', link: '/guide/自定义命令' },
+            { text: '自定义快捷键', link: '/guide/自定义快捷键' },
+            { text: '自定义文件系统', link: '/guide/自定义文件系统' },
           ]
         },
         {
-          text: '开发',
+          text: '深度开发',
           collapsed: false,
           items: [
             { text: '开发', link: '/guide/开发' },
